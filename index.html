@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- INTEGRACION DEL FRAMEWORK BOOTSTRAP PARA DISEÑO Y ESTILO WEB -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Design</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+
+    <!-- ESTILO PARA IMAGENES DE USUARIOS -->
+    <style>
+        .foto-usuario{
+            width: 180px;      /* tamaño medio */
+            height: 180px;
+            object-fit: cover; /* evita deformación */
+            border-radius: 50%; /* circular */
+            margin-bottom: 15px;
+        }
+
+        .img-redes{
+            width: 150px;
+            height: 40px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="row mt-4">
+        <div class="col-md-12 bg-primary text-white text-center p-3">
+            <h1><b>Profile Card Design</b></h1>
+        </div>
+    </div>
+
+    <!-- SECCION CARDS -->
+    <div class="row justify-content-center py-5" style="background-color: #e3e3e3;">
+
+        <!-- CARD 1 -->
+        <div class="col-md-3 m-3 bg-white text-center p-4 shadow" style="border-radius: 20px;">
+            
+            <img src="assets/img/usuario1.jpg" 
+                 class="foto-usuario"
+                 alt="Usuario 1">
+
+            <h4><b>Person One</b></h4>
+
+            <p>
+                Esta es persona número uno,
+                para revisar la tarjeta de información.
+            </p>
+
+            <img src="assets/img/redes.jpg"
+                 class="img-redes"
+                 alt="Redes">
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-3 m-3 bg-white text-center p-4 shadow" style="border-radius: 20px;">
+            
+            <img src="assets/img/usuario2.jpg" 
+                 class="foto-usuario"
+                 alt="Usuario 2">
+
+            <h4><b>Person Two</b></h4>
+
+            <p>
+                Esta es persona número dos,
+                para revisar la tarjeta de información.
+            </p>
+
+            <img src="assets/img/redes.jpg"
+                 class="img-redes"
+                 alt="Redes">
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-3 m-3 bg-white text-center p-4 shadow" style="border-radius: 20px;">
+            
+            <img src="assets/img/usuario3.jpg" 
+                 class="foto-usuario"
+                 alt="Usuario 3">
+
+            <h4><b>Person Three</b></h4>
+
+            <p>
+                Esta es persona número tres,
+                para revisar la tarjeta de información.
+            </p>
+
+            <img src="assets/img/redes.jpg"
+                 class="img-redes"
+                 alt="Redes">
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="row">
+        <div class="col-md-12 bg-secondary text-white text-center p-3">
+            <h2>HTML CSS BOOTSTRAP</h2>
+        </div>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
